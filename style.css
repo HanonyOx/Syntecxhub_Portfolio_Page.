@@ -6,4 +6,181 @@
 body{
     background-color: black;
     scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+#header{
+   height: 100vh;
+   width: 100%;
+   background-image: url(Images/Allen\ smith.jpg);
+   background-position: right;
+   background-repeat: none;
+   background-size: cover ;
+}
+
+/* NAV LINKS */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+     box-sizing: border-box;
+    background-color: rgb(64, 138, 64);
+    color: white;
+    border-radius: 3px;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.logo h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.logo h1 span{
+    color: rgb(64, 138, 64);
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+ul li a::after{
+    content: "";
+  background-color: rgb(64, 138, 64);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+}
+
+ul li a:hover::after{
+    width: 100%;
+    transition: width 0.5s ease;
+}
+/* HEADER BODY */
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10% auto;
+    width: 1240px;
+    padding: 0 20px;
+}
+.intro h2{
+    color: hsla(100, 27%, 98%, 0.8);
+    font-weight: lighter;
+    
+}
+.intro h1{
+    color: white;
+}
+.intro h1 .s{
+    color: rgb(64, 138, 64);
+}
+.intro p{
+    color: white;
+}
+.intro button{
+    width: 8rem;
+    height: 1.8rem;
+    background-color: rgb(117, 185, 117);
+    border-radius: 3px;
+    border: none;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+.intro button a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro button:hover{
+    background-color: rgb(76, 137, 76);
+    transform: translateY(5px) scale(1.1);
+
+}
+
+.info{
+    display:flex;
+    justify-content: start;
+    gap: 25px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+}
+.info .email{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 2px solid grey;
+    padding-right: 16px;
+}
+.info .email h3{
+    color: white;
+    display: flex;
+    gap: 2px;
+    font-weight: lighter;
+}
+.info .email p{
+    color: rgb(117, 185, 117);
+    font-weight: lighter;
+}
+.info .phone{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 2px solid grey;
+    padding-right: 16px;
+}
+.info .phone h3{
+    color: white;
+    display: flex;
+    gap: 2px;
+    font-weight: lighter;
+}
+.info .phone p{
+    color: rgb(117, 185, 117);
+    font-weight: lighter;
+}
+.info .location{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+}
+.info .location h3{
+    color: white;
+    display: flex;
+    gap: 2px;
+    font-weight: lighter;
+}
+.info .location p{
+    color: rgb(117, 185, 117);
+    font-weight: lighter;
 }

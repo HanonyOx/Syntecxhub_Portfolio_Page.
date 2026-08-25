@@ -1,0 +1,1 @@
+A responsive personal portfolio website built with HTML and CSS, featuring a clean modern design, smooth transitions, interactive hover effects, and sections for showcasing my skills, projects, and experience.

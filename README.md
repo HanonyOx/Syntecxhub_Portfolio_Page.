@@ -1,4 +1,4 @@
-# 💻 llen Smith — Personal Portfolio Website
+# 💻 Allen Smith — Personal Portfolio Website
 
 A modern, responsive personal portfolio website built to showcase my skills, projects, experience, and journey as a frontend developer.
 
